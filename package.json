@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "public_nodejs",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:my-app": "node dist/my-app/server/server.mjs"
+    "serve:ssr:my-app": "node dist/my-app/server/server.mjs",
+    "serve:ssr:public_nodejs": "node dist/public_nodejs/server/server.mjs"
   },
   "private": true,
   "dependencies": {
